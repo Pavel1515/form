@@ -1,0 +1,114 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  width: 276px;
+  height: 40.2px;
+  background: #ffffff;
+  border: 1px solid #eaf2ff;
+  border-radius: 4px;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 170.23%;
+  color: #adb5bd;
+  padding-left: 12px;
+}
+
+.flags-button::after {
+  border-top: 5px solid #2c7dfa;
+  margin-top: 16px;
+  margin: 0;
+  margin-left: 8.05px;
+}
+.flags button {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 46px;
+  height: 36px;
+  margin: 0;
+}
+.flags button span {
+  width: 13.33px;
+  height: 9.38px;
+  padding: 0;
+  padding-bottom: 3px;
+}
+.flags ul {
+  width: 46px;
+}
+.flags ul li {
+  padding: 0;
+  padding-left: 4px;
+}
+.input-telephone {
+  width: 231px;
+  height: 40.2px;
+  background: #ffffff;
+  border: 1px solid #eaf2ff;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 170.23%;
+  color: #adb5bd;
+  padding-left: 12px;
+}
+.select-input__menu {
+  width: 276px !important;
+  height: 195px !important;
+  padding-top: 11px !important;
+  padding-left: 40px !important;
+  border: 1px solid #EAF2FF
+
+}
+.select-input__list {
+  width: 276px !important;
+  height: 195px !important;
+}
+.select-input__option {
+  font-family: "IBM Plex Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 170.23% !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.select-input__option:hover {
+  background-color: transparent !important;
+  color: black !important;
+}
+.css-1okebmr-indicatorSeparator {
+  background-color: transparent !important;
+}
+.css-tlfecz-indicatorContainer {
+  color: #2c7dfa !important;
+}
+.select-lang__menu {
+  width: 276px !important;
+  height: 195px !important;
+  padding-top: 11px !important;
+  padding-left: 15px !important ;
+}
+.select-lang__option {
+  font-family: "IBM Plex Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px  !important;
+  line-height: 170.23% !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.select-lang__option::before {
+  content: "";
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: #ffffff !important;
+  border: 1px solid #2c7dfa !important;
+  border-radius: 50% !important;
+}
